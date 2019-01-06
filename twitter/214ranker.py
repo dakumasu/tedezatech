@@ -2,6 +2,7 @@
 import key
 import datetime
 
+api = key.api
 search = api.search(q="334 or @atagtbrabrtvgd", count=100)
 t = 1
 now = datetime.datetime.now()
